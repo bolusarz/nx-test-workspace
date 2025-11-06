@@ -1,4 +1,4 @@
-import { render } from '@testing-library/react';
+import { getByText, render } from '@testing-library/react';
 import { BrowserRouter } from 'react-router-dom';
 
 import App from './app';
@@ -19,9 +19,6 @@ describe('App', () => {
         <App />
       </BrowserRouter>
     );
-    expect(
-      getAllByText(new RegExp('Welcome @react-demo/react-demo', 'gi')).length >
-        0
-    ).toBeTruthy();
+    expect(getAllByText('Welcome to our Demo').length > 0).toBeTruthy();
   });
 });

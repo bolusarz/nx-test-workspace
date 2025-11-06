@@ -37,5 +37,10 @@
     "src/**/*.ts",
     "src/**/*.tsx",
     "../../packages/ui"
+  ],
+  "references": [
+    {
+      "path": "../../packages/ui/tsconfig.lib.json"
+    }
   ]
 }

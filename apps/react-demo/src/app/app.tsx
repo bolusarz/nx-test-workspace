@@ -5,7 +5,7 @@ export function App() {
     <>
       <h1>Home</h1>
       <Hero
-        title="Welcmoe to our Demo"
+        title="Welcome to our Demo"
         subtitle="Build something amazing today"
         cta="Get Started"
       />
